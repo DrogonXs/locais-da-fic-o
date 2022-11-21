@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 2vw;
+    background-color: black
+}
+
+.foto-album img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foto-album{
+    cursor: url(cursor.cur), default;
+    width: 340px;
+    height: 340px;
+    border: 10px solid white;
+    flex-grow: 1;
+    box-shadow: 5px 5px 3px red;
+    transition: transform .1s;
+}
+
+.foto-album:hover{
+   transform: scale(1.3);
+    
+}
+
+header{
+    text-align: center;
+   
+    color: white;
+  background-image: url(roshar.png);
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
